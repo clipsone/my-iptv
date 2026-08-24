@@ -1,19 +1,31 @@
 {
-  "epgUrl": "https://live.fanmingming.com/e.xml",
+  "epgUrl": "https://iptv-org.github.io/epg/index.xml",
   "timeoutMs": 8000,
   "concurrency": 16,
   "maxProbe": 1500,
   "maxUrlsPerChannel": 3,
   "subscriptions": [
     {
+      "name": "iptv-org体育",
+      "url": "https://iptv-org.github.io/iptv/categories/sports.m3u",
+      "enabled": true
+    },
+    {
+      "name": "iptv-org中文",
+      "url": "https://iptv-org.github.io/iptv/languages/zho.m3u",
+      "enabled": true
+    },
+    {
       "name": "fanmingming全球",
       "url": "https://live.fanmingming.com/tv/m3u/global.m3u",
-      "enabled": true
+      "enabled": false,
+      "_note": "Actions 机房拉取失败，暂停用"
     },
     {
       "name": "YanG聚合",
       "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
-      "enabled": true
+      "enabled": false,
+      "_note": "实测存活率过低，暂停用"
     }
   ],
   "customChannels": [
