@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-08-24T19:35:05.689Z",
+  "durationSec": 34,
+  "sources": [
+    {
+      "name": "fanmingming全球",
+      "ok": false,
+      "channels": 0
+    },
+    {
+      "name": "YanG聚合",
+      "ok": true,
+      "channels": 127
+    }
+  ],
+  "totals": {
+    "rawRecords": 127,
+    "uniqueChannels": 124,
+    "keptChannels": 1,
+    "probedUrls": 30,
+    "aliveUrls": 1
+  },
+  "skippedProbe": 94
+}

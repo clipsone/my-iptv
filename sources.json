@@ -1,0 +1,27 @@
+{
+  "epgUrl": "https://live.fanmingming.com/e.xml",
+  "timeoutMs": 8000,
+  "concurrency": 16,
+  "maxProbe": 1500,
+  "maxUrlsPerChannel": 3,
+  "subscriptions": [
+    {
+      "name": "fanmingming全球",
+      "url": "https://live.fanmingming.com/tv/m3u/global.m3u",
+      "enabled": true
+    },
+    {
+      "name": "YanG聚合",
+      "url": "https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u",
+      "enabled": true
+    }
+  ],
+  "customChannels": [
+    { "name": "示例频道", "group": "自定义", "url": "http://example.com/live.m3u8", "enabled": false }
+  ],
+  "homeSource": {
+    "name": "家庭自托管(akiralereal/iptv)",
+    "url": "",
+    "_comment": "填你家 akiralereal 实例的 interface.m3u 公网地址（需 DDNS/反代/frp 暴露），留空则跳过"
+  }
+}
