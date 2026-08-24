@@ -112,6 +112,7 @@ function normalizeName(raw) {
     .replace(/[【\[]/g, '').replace(/[】\]]/g, '');
   s = s.replace(/[！-～]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0xFEE0));
   s = s.toUpperCase().replace(/^[-_.]+|[-_.]+$/g, '');
+  s = s.replace(/[\(\[]?(4320|2160|1440|1080|720|576|540|480|406|360|240|234|180)[PＰ][\)\]]?$/, '').trim();
   for (const rule of ALIAS) {
     if (rule[0].test(s)) return s.replace(rule[0], rule[1]);
   }
@@ -130,9 +131,15 @@ const GROUP_RULES = [
 ];
 const GROUP_ORDER = ['央视', '卫视', '体育', '港澳台', '国际', '电影', '剧场', '纪录', '少儿', '教育', '4K/8K'];
 
+const GROUP_EN = { 'SPORTS': '体育', 'NEWS': '新闻', 'GENERAL': '综合', 'MOVIES': '电影', 'SERIES': '剧场', 'MUSIC': '音乐', 'ENTERTAINMENT': '娱乐', 'KIDS': '少儿', 'FAMILY': '少儿', 'DOCUMENTARY': '纪录', 'RELIGIOUS': '宗教', 'LIFESTYLE': '生活', 'OUTDOOR': '户外', 'BUSINESS': '财经', 'EDUCATION': '教育', 'CULTURE': '文化', 'TRAVEL': '旅行', 'COOKING': '美食', 'AUTO': '汽车', 'SCIENCE': '科技', 'UNDEFINED': '其他', 'WEATHER': '天气', 'SHOP': '购物', 'ANIMATION': '动漫' };
+
 function normalizeGroup(group, name) {
   const g = String(group || '').trim();
-  if (g && g !== '其他' && g !== '未分类') return g; // 上游已有分组原样保留
+  if (g && g !== '其他' && g !== '未分类') {
+    const mapped = g.split(';').map(x => GROUP_EN[x.trim().toUpperCase()] || x.trim());
+    const hit = mapped.find(x => GROUP_ORDER.includes(x));
+    return hit || mapped[0];
+  }
   if (/cctv|^cgtn|央视/i.test(name)) return '央视';
   if (/卫视$/.test(name)) return '卫视';
   for (const rule of GROUP_RULES) if (rule[0].test(name)) return rule[1];
@@ -173,6 +180,48 @@ async function probe(item) {
   } catch (e) {
     return { ok: false, err: e.name === 'AbortError' ? '超时' : String(e.message || e).slice(0, 30) };
   }
+}
+
+/** 码率采样：下载媒体流 2.5 秒估算 kbps；HLS 清单自动下钻取分段 */
+async function sampleSpeed(u) {
+  try {
+    const ex = extractOpts(u.opts);
+    const h = {};
+    if (ex.referer) h['referer'] = ex.referer;
+    let r = await fetchT(u.url, { headers: h }, 5000);
+    let ct = r.headers.get('content-type') || '';
+    let target = u.url;
+    let hops = 0;
+    while (/mpegurl|vnd\.apple/i.test(ct) && hops < 2) {
+      const txt = await r.text();
+      const lines = txt.split(/\r?\n/).map(l => l.trim()).filter(l => l && !l.startsWith('#'));
+      const seg = lines.find(l => /\.(ts|m4s|mp4)(\?|$)/i.test(l));
+      if (seg) {
+        target = new URL(seg, r.url || target).href;
+        r = await fetchT(target, { headers: h }, 6000);
+        ct = '';
+        break;
+      }
+      const nxt = lines.find(l => /\.m3u8(\?|$)/i.test(l));
+      if (!nxt) break;
+      target = new URL(nxt, r.url || target).href;
+      r = await fetchT(target, { headers: h }, 5000);
+      ct = r.headers.get('content-type') || '';
+      hops++;
+    }
+    const reader = r.body.getReader();
+    const t0 = Date.now();
+    let bytes = 0;
+    while (Date.now() - t0 < 2500) {
+      const chunk = await Promise.race([reader.next(), new Promise(res => setTimeout(() => res(null), 3000))]);
+      if (!chunk || chunk.done || !chunk.value) break;
+      bytes += chunk.value.length;
+      if (bytes > 2000000) break;
+    }
+    try { await reader.cancel(); } catch (e2) {}
+    const secs = (Date.now() - t0) / 1000;
+    return secs > 0 ? Math.round(bytes * 8 / secs / 1000) : 0;
+  } catch (e) { return 0; }
 }
 
 async function pool(items, worker, n) {
@@ -232,7 +281,10 @@ for (const it of all) {
   const ch = channels.get(key);
   if (!ch.logo && it.attrs['tvg-logo']) ch.logo = it.attrs['tvg-logo'];
   if (!ch.tvgId && it.attrs['tvg-id']) ch.tvgId = it.attrs['tvg-id'];
-  if (!ch.urls.has(it.url)) ch.urls.set(it.url, { opts: it.opts || [] });
+  if (!ch.urls.has(it.url)) {
+    const rm = String(it.name || '').match(/[\(\[](\d{3,4})[PＰ][\)\]]/i);
+    ch.urls.set(it.url, { opts: it.opts || [], res: rm ? parseInt(rm[1]) : 0 });
+  }
 }
 
 // 3. 测速
@@ -258,12 +310,21 @@ const collator = new Intl.Collator('zh-Hans-CN', { numeric: true });
 const entries = [];
 for (const kv of channels) {
   const ch = kv[1];
-  const list = Array.from(ch.urls.entries())
-    .map(pair => ({ url: pair[0], ms: pair[1].ms == null ? Infinity : pair[1].ms, ok: !!pair[1].ok, opts: pair[1].opts }))
-    .sort((a, b) => ((b.ok ? 1 : 0) - (a.ok ? 1 : 0)) || (a.ms - b.ms))
-    .slice(0, MAX_PER_CH);
-  if (!list.some(x => x.ok)) continue; // 全部失效的频道丢弃
-  entries.push({ key: kv[0], group: ch.group, logo: ch.logo, tvgId: ch.tvgId, urls: list });
+  const alive = Array.from(ch.urls.entries())
+    .map(pair => ({ url: pair[0], ms: pair[1].ms == null ? Infinity : pair[1].ms, ok: !!pair[1].ok, opts: pair[1].opts, res: pair[1].res || 0, kbps: 0 }))
+    .filter(x => x.ok)
+    .sort((a, b) => (b.res - a.res) || (a.ms - b.ms))
+    .slice(0, 6);
+  if (!alive.length) continue; // 全部失效的频道丢弃
+  entries.push({ key: kv[0], group: ch.group, logo: ch.logo, tvgId: ch.tvgId, urls: alive });
+}
+// 码率采样：仅对同频道多存活源做，用于优先高画质源
+const needSample = [];
+for (const e of entries) for (const u of e.urls.slice(0, 4)) needSample.push(u);
+console.log('码率采样目标:', needSample.length);
+await pool(needSample, async (u) => { u.kbps = await sampleSpeed(u); });
+for (const e of entries) {
+  e.urls = e.urls.sort((a, b) => ((b.kbps || 0) - (a.kbps || 0)) || (b.res - a.res) || (a.ms - b.ms)).slice(0, MAX_PER_CH);
 }
 entries.sort((a, b) =>
   (orderOf(a.group) - orderOf(b.group)) ||
