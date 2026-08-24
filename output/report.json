@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T19:35:05.689Z",
-  "durationSec": 34,
+  "generatedAt": "2026-08-24T20:19:34.843Z",
+  "durationSec": 9,
   "sources": [
     {
       "name": "fanmingming全球",
@@ -17,8 +17,8 @@
     "rawRecords": 127,
     "uniqueChannels": 124,
     "keptChannels": 1,
-    "probedUrls": 30,
+    "probedUrls": 124,
     "aliveUrls": 1
   },
-  "skippedProbe": 94
+  "skippedProbe": 0
 }
