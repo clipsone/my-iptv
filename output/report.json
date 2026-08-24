@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-08-24T20:19:34.843Z",
-  "durationSec": 9,
+  "generatedAt": "2026-08-24T20:45:17.192Z",
+  "durationSec": 27,
   "sources": [
     {
-      "name": "fanmingming全球",
-      "ok": false,
-      "channels": 0
+      "name": "iptv-org体育",
+      "ok": true,
+      "channels": 459
     },
     {
-      "name": "YanG聚合",
+      "name": "iptv-org中文",
       "ok": true,
-      "channels": 127
+      "channels": 207
     }
   ],
   "totals": {
-    "rawRecords": 127,
-    "uniqueChannels": 124,
-    "keptChannels": 1,
-    "probedUrls": 124,
-    "aliveUrls": 1
+    "rawRecords": 666,
+    "uniqueChannels": 630,
+    "keptChannels": 371,
+    "probedUrls": 658,
+    "aliveUrls": 390
   },
   "skippedProbe": 0
 }
