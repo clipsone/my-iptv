@@ -31,8 +31,6 @@ https://7nyaler.streamhostingcdn.top/stream/33/index.m3u8
 https://7nyaler.streamhostingcdn.top/stream/48/index.m3u8
 #EXTINF:-1 tvg-id="Arryadia.ma@SD" tvg-logo="https://i.imgur.com/XjzK3gZ.png" group-title="体育",ARRYADIA
 http://149.100.11.252:8000/play/a065/index.m3u8
-#EXTINF:-1 tvg-id="AS3SportTV.ve@SD" tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="体育",AS3SPORTTV
-https://streamtv.as3sport.online:3394/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="ASpor.tr@SD" tvg-logo="https://i.imgur.com/ZhkZzLf.png" group-title="体育",ASPOR
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor.m3u8
 #EXTINF:-1 tvg-id="ATGLive.se@SD" tvg-logo="https://i.imgur.com/bPWFXkL.png" group-title="体育",ATGLIVE
@@ -57,6 +55,8 @@ https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8
 https://pb-wm04vonaerv0k.akamaized.net/billi.m3u8
 #EXTINF:-1 tvg-id="BrondbyTV.se@DK" tvg-logo="https://images.pluto.tv/channels/685029cda1e091e16ff57fc8/colorLogoPNG_1750246109707.png" group-title="体育",BRØNDBYTV
 https://jmp2.uk/plu-685029cda1e091e16ff57fc8.m3u8
+#EXTINF:-1 tvg-id="CanalShowsport.ar@SD" tvg-logo="https://i.imgur.com/0L9tW3Z.png" group-title="体育",CANALSHOWSPORT
+https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="CBSSportsGolazoNetwork.us@SD" tvg-logo="https://i.imgur.com/eMjutHS.png" group-title="体育",CBSSPORTSGOLAZONETWORK
 https://dai.google.com/linear/hls/event/7f3Wv6f7QEKfQna22jHqLQ/master.m3u8
 #EXTINF:-1 tvg-id="CBSSportsHQ.us@SD" tvg-logo="https://i.imgur.com/q8BENJg.png" group-title="体育",CBSSPORTSHQ(1080P)GEO-BLOCKED
@@ -186,9 +186,9 @@ https://master.tucableip.com/ftvhd/index.m3u8
 #EXTINF:-1 tvg-id="FuboSportsNetwork.us@SD" tvg-logo="https://i.imgur.com/qFNRJLb.png" group-title="体育",FUBOSPORTSNETWORK
 https://dnf08l6u6uxnz.cloudfront.net/master.m3u8
 #EXTINF:-1 tvg-id="FUELTV.pt@AU" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="体育",FUELTV
-https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="FUELTV.pt@AU" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="体育",FUELTV
 https://amg01074-fueltv-amg01074c1-stirr-us-4214.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="FUELTV.pt@AU" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="体育",FUELTV
+https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fueltv-fueltvau-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="FUELTV.pt@AU" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="体育",FUELTV
 https://amg01074-fueltv-fueltvemeaen-rakuten-b6j62.amagi.tv/hls/amagi_hls_data_rakutenAA-fueltvemeaen/CDN/master.m3u8
 #EXTINF:-1 tvg-id="FUELTV.pt@US" tvg-logo="https://i.imgur.com/I8mviBy.png" group-title="体育",FUELTV(1080P)GEO-BLOCKED
@@ -276,12 +276,12 @@ https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 https://h.jcp.live.opencaster.com/play_src/index.m3u8
 #EXTINF:-1 tvg-id="MoreThanSportsTV.de@SD" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="体育",MORETHANSPORTSTV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-#EXTINF:-1 tvg-id="MRTVSports.mm@SD" tvg-logo="https://i.imgur.com/cFTR4kC.png" group-title="体育",MRTVSPORTSNOT24/7
-https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
 #EXTINF:-1 tvg-id="MSG.us@SD" tvg-logo="https://i.imgur.com/SEQFh0P.png" group-title="体育",MSG
 http://23.237.104.106:8080/USA_MSG/index.m3u8
 #EXTINF:-1 tvg-id="MSports.pk@SD" tvg-logo="https://msports.pk/wp-content/uploads/2026/02/m-sports-300.png" group-title="体育",MSPORTS
 https://cdn.rabta.stream/M-Sports/index.m3u8
+#EXTINF:-1 tvg-id="MultivisionSports.gt@SD" tvg-logo="https://i.imgur.com/wLjSSo2.jpg" group-title="体育",MULTIVISIÓNSPORTS(720P)NOT24/7
+https://stream.digitalgt.com:3605/live/multivisionsportslive.m3u8
 #EXTINF:-1 tvg-id="NauticalChannel.it@SD" tvg-logo="https://i.imgur.com/2ByDyzL.png" group-title="体育",NAUTICALCHANNEL
 https://a-cdn.klowdtv.com/live2/nautical_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="NBATV.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/NBA_TV.svg/960px-NBA_TV.svg.png" group-title="体育",NBATV
@@ -341,15 +341,15 @@ https://jmp2.uk/plu-68dfa3e2cc3c6cd904052c41.m3u8
 #EXTINF:-1 tvg-id="PlutoTVHandbollLive.se@SE" tvg-logo="https://images.pluto.tv/channels/686faf533ffa5e0c912688e7/colorLogoPNG_1762169254016.png" group-title="体育",PLUTOTVHANDBOLLLIVE
 https://jmp2.uk/plu-686faf533ffa5e0c912688e7.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSnooker900.de@DACH" tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" group-title="体育",PLUTOTVSNOOKER900
-https://jmp2.uk/plu-655b7cbb2c46f300086f0afa.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSnooker900.de@DACH" tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" group-title="体育",PLUTOTVSNOOKER900
-https://jmp2.uk/plu-68ac55bb3efb41cd979a65ec.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSnooker900.de@DACH" tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" group-title="体育",PLUTOTVSNOOKER900
 https://jmp2.uk/plu-68ac55fe3efb41cd979a6877.m3u8
-#EXTINF:-1 tvg-id="PlutoTVSport.de@IT" tvg-logo="https://images.pluto.tv/channels/608030eff4b6f70007e1684c/colorLogoPNG_1746816937164.png" group-title="体育",PLUTOTVSPORT
-https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSnooker900.de@DACH" tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" group-title="体育",PLUTOTVSNOOKER900
+https://jmp2.uk/plu-66fd35e44ca31f0008060b77.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSnooker900.de@DACH" tvg-logo="https://images.pluto.tv/channels/68ac5543a1ac0c90f2c8943e/colorLogoPNG_1760517341343.png" group-title="体育",PLUTOTVSNOOKER900
+https://jmp2.uk/plu-69148c76e9dec35c9269a16c.m3u8
 #EXTINF:-1 tvg-id="PlutoTVSport.de@IT" tvg-logo="https://images.pluto.tv/channels/608030eff4b6f70007e1684c/colorLogoPNG_1746816937164.png" group-title="体育",PLUTOTVSPORT
 https://jmp2.uk/plu-62cd74e38f6f0d000798cd93.m3u8
+#EXTINF:-1 tvg-id="PlutoTVSport.de@IT" tvg-logo="https://images.pluto.tv/channels/608030eff4b6f70007e1684c/colorLogoPNG_1746816937164.png" group-title="体育",PLUTOTVSPORT
+https://jmp2.uk/plu-608030eff4b6f70007e1684c.m3u8
 #EXTINF:-1 tvg-id="PokerGo.us@US" tvg-logo="https://i.imgur.com/1603HED.png" group-title="体育",POKERGO
 https://jmp2.uk/plu-5fc54366b04b2300072e31af.m3u8
 #EXTINF:-1 tvg-id="PolsatSportPremium1.pl@SD" tvg-logo="https://i.imgur.com/hy1SKE0.png" group-title="体育",POLSATSPORTPREMIUM1(1080P)NOT24/7
@@ -388,9 +388,9 @@ https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8
 #EXTINF:-1 tvg-id="RealMadridTVEnglish.es@SD" tvg-logo="https://i.imgur.com/5pMo7dL.png" group-title="体育",REALMADRIDTVENGLISH
 http://88.212.15.19/live/real_madrid_tv/index.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@EUMENA" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="体育",REDBULLTV
-https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
-#EXTINF:-1 tvg-id="RedBullTV.at@EUMENA" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="体育",REDBULLTV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="RedBullTV.at@EUMENA" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="体育",REDBULLTV
+https://3ea22335.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWdiX1JlZEJ1bGxUVl9ITFM/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@AU" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="体育",REDBULLTVAU
 https://db34cc6127ac459db55cab5f97cd66b9.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-680-WORBAUENFAST-WHALETVPLUS/680/whaletvplus/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RedBullTV.at@BR" tvg-logo="https://images.pluto.tv/channels/5e7cb84a172a0f0007da69e4/colorLogoPNG.png" group-title="体育",REDBULLTVBR
@@ -457,11 +457,11 @@ http://stream.mcquack.net/461/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/392/index.m3u8
 #EXTINF:-1 tvg-id="Sport2.cz@SD" tvg-logo="https://i.imgur.com/UxflVoU.png" group-title="体育",SPORT2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://88.212.15.19/live/sport2_hun/index.m3u8
-#EXTINF:-1 tvg-id="Sport2.cz@SD" tvg-logo="https://i.imgur.com/UxflVoU.png" group-title="体育",SPORT2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://88.212.15.19/live/test_sport_2/playlist.m3u8
+#EXTINF:-1 tvg-id="Sport2.cz@SD" tvg-logo="https://i.imgur.com/UxflVoU.png" group-title="体育",SPORT2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://88.212.15.19/live/sport2_hun/index.m3u8
 #EXTINF:-1 tvg-id="Sport3.ua@SD" tvg-logo="https://i.imgur.com/qkvavfH.png" group-title="体育",SPORT3
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36
 http://stream.mcquack.net/393/index.m3u8
@@ -588,6 +588,8 @@ https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8
 http://stream.mcquack.net/333/index.m3u8
 #EXTINF:-1 tvg-id="VinhLongTV4.vn@SD" tvg-logo="https://i.imgur.com/ARhIkvR.png" group-title="体育",VINHLONGTV4
 https://dethich.pw/thvl4/index.m3u8
+#EXTINF:-1 tvg-id="VSBetHD.vn@HD" tvg-logo="https://i.imgur.com/sMhL2Nl.png" group-title="体育",VSBETHD
+https://live05.meung.app/live/16226575.m3u8
 #EXTINF:-1 tvg-id="VSportGolf.se@SD" tvg-logo="https://i.imgur.com/wCw8Pmz.png" group-title="体育",VSPORTGOLFNOT24/7
 http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12077/index.m3u8
 #EXTINF:-1 tvg-id="WeSportTV.md@SD" tvg-logo="https://i.imgur.com/vJZgpOb.png" group-title="体育",WESPORTTV
@@ -595,9 +597,9 @@ http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/2471/index.m3u8
 #EXTINF:-1 tvg-id="Willow.us@SD" tvg-logo="https://cricket.willow.tv/_nuxt/img/willow_blue_logo.362ed8e.png" group-title="体育",WILLOW
 http://tvsen5.aynascope.net/willowhd/index.m3u8
 #EXTINF:-1 tvg-id="WillowSports.us@HD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="体育",WILLOWSPORTS
-https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
-#EXTINF:-1 tvg-id="WillowSports.us@HD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="体育",WILLOWSPORTS
 https://d36r8jifhgsk5j.cloudfront.net/Willow_TV.m3u8
+#EXTINF:-1 tvg-id="WillowSports.us@HD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/acf3d1d8-c53e-49ca-86e9-0d9410b106b4/Willow_Sports_dark_Background_1500_1000_color.png" group-title="体育",WILLOWSPORTS
+https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8
 #EXTINF:-1 tvg-id="WinSports.co@SD" tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="体育",WINSPORTS
 http://138.121.15.230:9002/WIN-SPORT/index.m3u8
 #EXTINF:-1 tvg-id="WorldofFreesports.de@Poland" tvg-logo="https://i.imgur.com/lta5Mog.png" group-title="体育",WORLDOFFREESPORTS
@@ -663,8 +665,6 @@ http://74.91.26.218:82/live/cctv17hd.m3u8
 http://74.91.26.218:82/live/cctv2hd.m3u8
 #EXTINF:-1 tvg-id="CGTNGlobalBiz.cn@SD" tvg-logo="https://i.imgur.com/qBmomnF.png" group-title="财经",CGTNGLOBALBIZ
 https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
-#EXTINF:-1 tvg-id="MOMOTV.tw@SD" tvg-logo="https://m.momoshop.com.tw/img/message.png" group-title="购物",MOMOTV
-http://nmk.ioapk.com:5050/4gtv-live107/index.m3u8
 #EXTINF:-1 tvg-id="LoveNature.ca@SD" tvg-logo="https://tv.lovenature.com/wp-content/uploads/2024/10/LoveNature2024_Logo_full_colour-copy.png" group-title="户外",LOVENATURE
 https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playlist.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="其他",ANHUITV
@@ -779,6 +779,8 @@ https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8
 http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="GuangzhouTV.cn@SD" tvg-logo="https://i.imgur.com/ff3KQXp.png" group-title="综合",GUANGZHOUTV
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
+#EXTINF:-1 tvg-id="HebeiTV.cn@SD" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="综合",HEBEITV
+https://event.pull.hebtv.com/live/live101.m3u8
 #EXTINF:-1 tvg-id="KangbaTV.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/kangbatv.jpg" group-title="综合",KANGBATV
 http://110.185.237.164:8888/hls/30/index.m3u8
 #EXTINF:-1 tvg-id="LotusTV.mo@SD" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="综合",LOTUSMACAUHD720P
