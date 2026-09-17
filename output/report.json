@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-16T20:46:42.202Z",
+  "generatedAt": "2026-09-17T02:54:57.051Z",
   "durationSec": 115,
   "sources": [
     {
@@ -16,9 +16,9 @@
   "totals": {
     "rawRecords": 641,
     "uniqueChannels": 603,
-    "keptChannels": 349,
+    "keptChannels": 339,
     "probedUrls": 633,
-    "aliveUrls": 372
+    "aliveUrls": 362
   },
   "skippedProbe": 0
 }
