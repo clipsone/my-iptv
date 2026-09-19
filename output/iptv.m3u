@@ -61,8 +61,6 @@ http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="CCTVStormFootball.cn@HD" tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="体育",CCTV-STORMFOOTBALL
 http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
-#EXTINF:-1 tvg-id="CDNDeportes.do@SD" tvg-logo="https://i.imgur.com/yU5LqTL.png" group-title="体育",CDNDEPORTES(720P)NOT24/7
-https://hls.tvabierta.net/hls/036.m3u8
 #EXTINF:-1 tvg-id="ColimdoTV.do@SD" tvg-logo="https://i.imgur.com/ZeUgLCa.png" group-title="体育",COLIMDOTV
 https://cnn.livestreaminggroup.info:3132/live/colimdotvlive.m3u8
 #EXTINF:-1 tvg-id="CricketGold.au@SD" tvg-logo="https://resources.cricket-australia.pulselive.com/cricket-australia/photo/2025/07/25/836eddae-4329-4542-ad17-dcd37e9d951a/Cricket-Gold-1920x1080_noBG.png" group-title="体育",CRICKETGOLD
@@ -105,6 +103,8 @@ http://181.78.197.59:8000/play/a07z/index.m3u8
 http://181.78.197.59:8000/play/a07n/index.m3u8
 #EXTINF:-1 tvg-id="ESPN8TheOcho.us@ESPN8TheOchoHD" tvg-logo="https://images.fubo.tv/channel-config-ui/station-logos/on-dark/espn_8_the_ocho_bw.png" group-title="体育",ESPN8:THEOCHO
 https://d3b6q2ou5kp8ke.cloudfront.net/ESPNTheOcho.m3u8
+#EXTINF:-1 tvg-id="ESPNDeportes.us@HD" tvg-logo="https://imgx.fubo.tv/station_logos/espn-hd-deportes_c.png" group-title="体育",ESPNDEPORTESHD
+http://168.228.44.241:9998/play/a0dz/index.m3u8
 #EXTINF:-1 tvg-id="ESPNews.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/ESPNews.svg/960px-ESPNews.svg.png" group-title="体育",ESPNEWS
 http://41.205.93.154/ESPNNEWS/index.m3u8
 #EXTINF:-1 tvg-id="ESPNU.us@HD" tvg-logo="https://i.imgur.com/HiBrysh.png" group-title="体育",ESPNUHD
@@ -188,8 +188,6 @@ http://stream.mcquack.net/416/index.m3u8
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.cz@SD" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/golfchannel.png" group-title="体育",GOLFCHANNEL
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
-#EXTINF:-1 tvg-id="GolfChannelLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png" group-title="体育",GOLFCHANNELLATINAMERICA
-http://15.204.246.24:8080/GolfChannelHD/index.m3u8
 #EXTINF:-1 tvg-id="HorseTV.it@SD" tvg-logo="https://i.imgur.com/nK4UUX4.png" group-title="体育",HORSETV
 https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="体育",HTSPORTV
@@ -240,20 +238,14 @@ http://str2.iptvhd.ru:8080/Match_Igra_HD/index.m3u8
 https://fs.uplink.kz/match_planeta/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="MatchUltra.ru@4K" tvg-logo="https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg" group-title="体育",MATCH!ULTRA
 http://str2.iptvhd.ru:8080/Match_TV_HD/index.m3u8
-#EXTINF:-1 tvg-id="MaxSport1.bg@SD" tvg-logo="https://i.imgur.com/0ohnpql.png" group-title="体育",MAXSPORT1
-http://hls127.freeott.top:8080/BG_MAX_Sport_1_HD/video.m3u8
-#EXTINF:-1 tvg-id="MaxSport2.bg@SD" tvg-logo="https://i.imgur.com/33m1wPN.png" group-title="体育",MAXSPORT2
-http://hls127.freeott.top:8080/BG_MAX_Sport_2_HD/video.m3u8
-#EXTINF:-1 tvg-id="MaxSport3.bg@SD" tvg-logo="https://i.imgur.com/eGiGgZ2.png" group-title="体育",MAXSPORT3
-http://hls127.freeott.top:8080/BG_MAX_Sport_3_HD/video.m3u8
-#EXTINF:-1 tvg-id="MaxSport4.bg@SD" tvg-logo="https://i.imgur.com/7IxXX6f.png" group-title="体育",MAXSPORT4
-http://hls127.freeott.top:8080/BG_MAX_Sport_4_HD/video.m3u8
 #EXTINF:-1 tvg-id="MeridianoTV.ve@SD" tvg-logo="https://i.imgur.com/I6gsUqD.png" group-title="体育",MERIDIANOTV
 http://181.78.8.199:8000/play/a0fr/index.m3u8
 #EXTINF:-1 tvg-id="MLB.us@SD" tvg-logo="https://i.imgur.com/ym3su2J.png" group-title="体育",MLB
 https://jmp2.uk/plu-5e66968a70f34c0007d050be.m3u8
 #EXTINF:-1 tvg-id="MLBStrikeZone.us@SD" tvg-logo="https://i.imgur.com/uMI1ySO.png" group-title="体育",MLBSTRIKEZONE
 http://23.237.104.106:8080/USA_MLB_STRIKE_ZONE/index.m3u8
+#EXTINF:-1 tvg-id="MMATVcom.ru@SD" tvg-logo="https://i.imgur.com/QhdxNsB.png" group-title="体育",MMA-TV.COM
+https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #EXTINF:-1 tvg-id="MNBSport.mn@SD" tvg-logo="https://i.imgur.com/z854PC3.png" group-title="体育",MNBSPORT
 https://live.mnb.mn/hls/mnb_sport.stream.m3u8
 #EXTINF:-1 tvg-id="MonsterJam.us@SD" tvg-logo="https://provider-static.plex.tv/epg/cms/production/23824964-562b-4498-9eaa-d6262cb7e0c3/Monster_Jam_Logo_on_Transparent_1500x1000_Casey_Murawski.png" group-title="体育",MONSTERJAM
@@ -575,6 +567,8 @@ https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
 #EXTINF:-1 tvg-id="TVSWomenSports.us@SD" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="体育",TVSWOMENSPORTS
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
+#EXTINF:-1 tvg-id="TyCSportsUSA.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="体育",TYCSPORTSUSA
+http://45.170.130.224:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-id="UDAR.ru@SD" tvg-logo="https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png" group-title="体育",UDAR
 http://5.188.159.128:8070/udar/index.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="体育",UNBEATEN
@@ -590,6 +584,8 @@ http://stream.mcquack.net/333/index.m3u8
 http://str2.iptvhd.ru:8080/Viasat_Sport/index.m3u8
 #EXTINF:-1 tvg-id="VinhLongTV4.vn@SD" tvg-logo="https://i.imgur.com/ARhIkvR.png" group-title="体育",VINHLONGTV4
 https://dethich.pw/thvl4/index.m3u8
+#EXTINF:-1 tvg-id="VSBetHD.vn@HD" tvg-logo="https://i.imgur.com/sMhL2Nl.png" group-title="体育",VSBETHD
+https://live05.meung.app/live/16226575.m3u8
 #EXTINF:-1 tvg-id="VSportGolf.se@SD" tvg-logo="https://i.imgur.com/wCw8Pmz.png" group-title="体育",VSPORTGOLFNOT24/7
 http://315e5a5d.ottrast.com/iptv/8XFKA8883W9M5K/12077/index.m3u8
 #EXTINF:-1 tvg-id="VTV6.vn@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/VTV6_logo_2026_final.svg/960px-VTV6_logo_2026_final.svg.png" group-title="体育",VTV6
@@ -780,8 +776,6 @@ https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8
 http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="GuangzhouTV.cn@SD" tvg-logo="https://i.imgur.com/ff3KQXp.png" group-title="综合",GUANGZHOUTV
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-#EXTINF:-1 tvg-id="HebeiTV.cn@SD" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="综合",HEBEITV
-https://event.pull.hebtv.com/live/live101.m3u8
 #EXTINF:-1 tvg-id="KangbaTV.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/kangbatv.jpg" group-title="综合",KANGBATV
 http://110.185.237.164:8888/hls/30/index.m3u8
 #EXTINF:-1 tvg-id="LotusTV.mo@SD" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="综合",LOTUSTV
