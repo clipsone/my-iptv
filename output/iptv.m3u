@@ -173,6 +173,8 @@ https://amg01074-fueltv-fueltvau-samsungau-g09kq.amagi.tv/playlist/amg01074-fuel
 https://amg01074-fueltv-amg01074c1-firetv-us-3150.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="FutbolTV.uz@HD" tvg-logo="https://i.ibb.co/h1gQSkbB/Futbol-TV.png" group-title="体育",FUTBOLTV
 http://stream3.cinerama.uz/1010/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="FUTV.cr@SD" tvg-logo="https://i.imgur.com/f8BkLql.png" group-title="体育",FUTV
+http://190.61.90.17:40000/play/a03v/index.m3u8
 #EXTINF:-1 tvg-id="GamePlus.ca@SD" tvg-logo="https://i.imgur.com/Lj69WbR.png" group-title="体育",GAME+
 https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="geFast.br@SD" tvg-logo="https://i.ibb.co/WGXHDnF/logo-ge-fast.png" group-title="体育",GEFAST
@@ -186,8 +188,6 @@ http://stream.mcquack.net/416/index.m3u8
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.cz@SD" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/golfchannel.png" group-title="体育",GOLFCHANNEL
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
-#EXTINF:-1 tvg-id="GolfChannelLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png" group-title="体育",GOLFCHANNELLATINAMERICA
-http://15.204.246.24:8080/GolfChannelHD/index.m3u8
 #EXTINF:-1 tvg-id="HorseTV.it@SD" tvg-logo="https://i.imgur.com/nK4UUX4.png" group-title="体育",HORSETV
 https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="体育",HTSPORTV
@@ -253,8 +253,6 @@ https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 https://h.jcp.live.opencaster.com/play_src/index.m3u8
 #EXTINF:-1 tvg-id="MoreThanSportsTV.de@SD" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="体育",MORETHANSPORTSTV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
-#EXTINF:-1 tvg-id="MRTVSports.mm@SD" tvg-logo="https://i.imgur.com/cFTR4kC.png" group-title="体育",MRTVSPORTSNOT24/7
-https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
 #EXTINF:-1 tvg-id="MSG.us@SD" tvg-logo="https://i.imgur.com/SEQFh0P.png" group-title="体育",MSG
 http://23.237.104.106:8080/USA_MSG/index.m3u8
 #EXTINF:-1 tvg-id="MSports.pk@SD" tvg-logo="https://msports.pk/wp-content/uploads/2026/02/m-sports-300.png" group-title="体育",MSPORTS
@@ -648,8 +646,6 @@ https://aegis-cloudfront-1.tubi.video/6d6d0f24-8445-4b4c-bdf6-44f9e38beaa4/playl
 https://mumbai-edge.smartplaytv.in/LoveNature/index.m3u8
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="其他",ANHUITV
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
-#EXTINF:-1 tvg-id="CCTV8K.cn@HD" tvg-logo="https://i.imgur.com/fxVPMJF.png" group-title="其他",CCTV-8KHD
-http://192.151.150.154/live/cctv8k.m3u8
 #EXTINF:-1 tvg-id="CCTVCultureofQuality.cn@SD" tvg-logo="https://i.imgur.com/Paig8gG.png" group-title="其他",CCTV-CULTUREOFQUALITYSD
 http://38.75.136.137:98/gslb/dsdqpub/ysjp.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="GuangdongSatelliteTV.cn@SD" tvg-logo="https://parco-zh.github.io/demo/guangdong.jpg" group-title="其他",GUANGDONGSATELLITETV
@@ -659,8 +655,6 @@ http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jb
 #EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-logo="https://i.imgur.com/WeugJBE.png" group-title="其他",NEIMONGGOLTV(960P)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
-#EXTINF:-1 tvg-id="RTHKTV31.hk@SD" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="其他",RTHKTV31(1080P)GEO-BLOCKED
-https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="VoATVChina.cn@SD" tvg-logo="https://i.imgur.com/XCTZkoq.png" group-title="其他",VOATVCHINA
 https://voa-ingest.akamaized.net/hls/live/2033878/tvmc08/playlist.m3u8
 #EXTINF:-1 tvg-id="ZhejiangInternationalChannel.cn@SD" tvg-logo="https://i.imgur.com/XOL1Hph.png" group-title="其他",ZHEJIANGINTERNATIONALCHANNEL
