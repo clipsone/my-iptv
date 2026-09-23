@@ -57,6 +57,8 @@ https://jmp2.uk/plu-5e9f2c05172a0f0007db4786.m3u8
 http://74.91.26.218:82/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-id="CCTVBilliards.cn@HD" tvg-logo="https://i.imgur.com/WK3keM9.png" group-title="体育",CCTV-BILLIARDS
 http://38.75.136.137:98/gslb/dsdqpub/ystq.m3u8?auth=testpub
+#EXTINF:-1 tvg-id="CCTVGolfTennis.cn@HD" tvg-logo="https://i.imgur.com/iqJJTmH.png" group-title="体育",CCTV-GOLF&TENNIS
+http://38.75.136.137:98/gslb/dsdqpub/gefwq.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="CCTVStormFootball.cn@HD" tvg-logo="https://i.imgur.com/Fy6HkX0.png" group-title="体育",CCTV-STORMFOOTBALL
 http://38.75.136.137:98/gslb/dsdqpub/fyzq.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="ColimdoTV.do@SD" tvg-logo="https://i.imgur.com/ZeUgLCa.png" group-title="体育",COLIMDOTV
@@ -186,6 +188,8 @@ http://stream.mcquack.net/416/index.m3u8
 https://jmp2.uk/plu-63a0e33a45264d000850ed7e.m3u8
 #EXTINF:-1 tvg-id="GolfChannel.cz@SD" tvg-logo="https://www.sms.cz/kategorie/televize/bmp/loga/velka/golfchannel.png" group-title="体育",GOLFCHANNEL
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
+#EXTINF:-1 tvg-id="GolfChannelLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Golf_Channel_Logo_2018.png/960px-Golf_Channel_Logo_2018.png" group-title="体育",GOLFCHANNELLATINAMERICA
+http://15.204.246.24:8080/GolfChannelHD/index.m3u8
 #EXTINF:-1 tvg-id="HorseTV.it@SD" tvg-logo="https://i.imgur.com/nK4UUX4.png" group-title="体育",HORSETV
 https://a-cdn.klowdtv.com/live2/horsetv_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="HTSporTV.tr@SD" tvg-logo="https://www.htspor.com/images/manifest/social-share-logo.png" group-title="体育",HTSPORTV
@@ -452,6 +456,8 @@ http://stream.mcquack.net/394/index.m3u8
 #EXTINF:-1 tvg-id="Sport5.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c5/Sport5UA.jpg" group-title="体育",SPORT5
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
 http://stream.mcquack.net/212/index.m3u8
+#EXTINF:-1 tvg-id="Sportitalia.it@SD" tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="体育",SPORTITALIA
+https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportivnyy.ru@SD" tvg-logo="https://i.imgur.com/ujS6mMo.png" group-title="体育",SPORTIVNYY
 https://live-3.otcnet.ru/sportivny/index.m3u8
 #EXTINF:-1 tvg-id="SportsGrid.us@SD" tvg-logo="https://i.imgur.com/ulGKX30.png" group-title="体育",SPORTSGRID
@@ -555,6 +561,8 @@ https://rpn.bozztv.com/gusa/gusa-tvssportsbureau/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-tvsturbo/index.m3u8
 #EXTINF:-1 tvg-id="TVSWomenSports.us@SD" tvg-logo="https://i.imgur.com/8hC4PfF.png" group-title="体育",TVSWOMENSPORTS
 https://rpn.bozztv.com/gusa/gusa-tvswsn/index.m3u8
+#EXTINF:-1 tvg-id="TyCSportsUSA.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="体育",TYCSPORTSUSA
+http://45.170.130.224:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-id="UDAR.ru@SD" tvg-logo="https://mt.media/upload/iblock/2b3/2b3cf99141bf7f99cda377eec62ec084.png" group-title="体育",UDAR
 http://5.188.159.128:8070/udar/index.m3u8
 #EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-logo="https://i.imgur.com/LmkNt3v.png" group-title="体育",UNBEATEN
@@ -594,6 +602,8 @@ https://amg00477-samsungelectron-worldpokertour-samsunguk-81igb.amagi.tv/playlis
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2247
 #EXTINF:-1 tvg-id="YES.mv@SD" tvg-logo="https://i.imgur.com/HARIGQl.png" group-title="体育",YES
 https://customer-ujex1meek7koqd9x.cloudflarestream.com/4f0b316cdb0fbb7f8ca93860ed11d38b/manifest/video.m3u8
+#EXTINF:-1 tvg-id="CCTV6.cn@HD" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="电影",CCTV-6HD
+http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-id="CCTVStormTheater.cn@HD" tvg-logo="https://i.imgur.com/rEttkKm.png" group-title="电影",CCTV-STORMTHEATER
 http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="CCTVTheFirstTheater.cn@HD" tvg-logo="https://i.imgur.com/eFxD3hq.png" group-title="电影",CCTV-THEFIRSTTHEATER
@@ -757,8 +767,6 @@ https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8
 http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="GuangzhouTV.cn@SD" tvg-logo="https://i.imgur.com/ff3KQXp.png" group-title="综合",GUANGZHOUTV
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-#EXTINF:-1 tvg-id="HebeiTV.cn@SD" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="综合",HEBEITV
-https://event.pull.hebtv.com/live/live101.m3u8
 #EXTINF:-1 tvg-id="KangbaTV.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/kangbatv.jpg" group-title="综合",KANGBATV
 http://110.185.237.164:8888/hls/30/index.m3u8
 #EXTINF:-1 tvg-id="LotusTV.mo@SD" tvg-logo="https://i.imgur.com/7j8Lnog.png" group-title="综合",LOTUSTV
