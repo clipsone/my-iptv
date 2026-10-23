@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-23T02:56:30.903Z",
-  "durationSec": 121,
+  "generatedAt": "2026-10-23T10:53:00.137Z",
+  "durationSec": 129,
   "sources": [
     {
       "name": "iptv-org体育",
@@ -16,9 +16,9 @@
   "totals": {
     "rawRecords": 687,
     "uniqueChannels": 679,
-    "keptChannels": 405,
+    "keptChannels": 401,
     "probedUrls": 679,
-    "aliveUrls": 405
+    "aliveUrls": 401
   },
   "skippedProbe": 0
 }
