@@ -13,6 +13,8 @@ https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
 https://d4whmvwm0rdvi.cloudfront.net/10007/99951318/hls/master.m3u8?ads._fw_app_bundle=web.xumo.com&ads._fw_app_store_url=&ads._fw_content_category=&ads._fw_content_genre=&ads._fw_content_language=en&ads._fw_content_rating=&ads._fw_coppa=0&ads._fw_deviceMake=GitHubAction&ads._fw_deviceType=3-Connected_TV&ads._fw_device_model=PythonScript&ads._fw_did=a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads._fw_is_lat=0&ads._fw_us_privacy=&ads._fw_vcid2=512116:a5090924-15b1-4b7f-b6cd-2f06e2ba51e1&ads.afid=405342864&ads.appName=XumoPlay&ads.appVersion=1.0.0&ads.asnw=169843&ads.channelId=99951318&ads.csid=xumo_web_NBCUAmericanNinjaWarrior_ssai_cro&ads.sfid=19647852&ads.xumo_channelId=99951318&ads.xumo_contentId=4063&ads.xumo_contentName=NBCUAmericanNinjaWarrior&ads.xumo_providerId=4063&ads.xumo_providerName=NBCUAmericanNinjaWarrior
 #EXTINF:-1 tvg-id="AntenaPlayEvents.ro@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/87/Antena_Play_symbol_white_2022.svg/revision/latest/scale-to-width-down/1000?cb=20251128201145" group-title="体育",ANTENAPLAYEVENTS(576I)NOT24/7
 https://live77cdn2.antenaplay.ro/live2_sport07/live2_sport07_3500k.m3u8
+#EXTINF:-1 tvg-id="AntenaSport.ro@SD" tvg-logo="https://cdn.as.ro/wp-content/themes/antenasport/images/icons-as/as.svg" group-title="体育",ANTENASPORT
+https://stream1.antenaplay.ro/as/AS.ro/chunklist.m3u8
 #EXTINF:-1 tvg-id="Arena4.hu@SD" tvg-logo="https://i.imgur.com/uAaQDr6.png" group-title="体育",ARENA4
 http://88.212.7.14/live/arena4/index.m3u8
 #EXTINF:-1 tvg-id="ArenaSport1.sk@SD" tvg-logo="https://i.imgur.com/2qf67zW.png" group-title="体育",ARENASPORT1
@@ -47,6 +49,8 @@ https://cdn3.wowza.com/5/ZWQ1K2NYTmpFbGsr/BEK-WOWZA-1/smil:BEKPRIMEW.smil/playli
 https://ngtrk.dc.beltelecom.by/ngtrk/smil:belarus5.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Belarus5.by@HD" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="体育",BELARUS-5HD
 http://178.124.179.122:8080/BT5/index.m3u8
+#EXTINF:-1 tvg-id="Belarus5.by@Internet" tvg-logo="https://i.imgur.com/NJsRFud.png" group-title="体育",BELARUS-5INTERNET(1080P)NOT24/7
+https://edge59.dc.beltelecom.by/ngtrk/smil:belarus5int.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BellatorMMA.us@SD" tvg-logo="https://i.imgur.com/VBKoLHk.png" group-title="体育",BELLATORMMA
 https://jmp2.uk/plu-5ebc8688f3697d00072f7cf8.m3u8
 #EXTINF:-1 tvg-id="BicolorPlusPremium.pe@SD" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790183086681/1dff7002a22a_640_360.png" group-title="体育",BICOLOR+PREMIUMGEO-BLOCKED
@@ -194,8 +198,6 @@ https://directes-tv-int.3catdirectes.cat/live-content/esport3-hls/master.m3u8
 #EXTINF:-1 tvg-id="Eurosport.fr@Asia" tvg-logo="https://i.imgur.com/s4jDnJh.png" group-title="体育",EUROSPORT(FRANCE)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://103.253.74.210:7070/stream/122/index.m3u8
-#EXTINF:-1 tvg-id="Eurosport.in@SD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9LQS.png?lock=720x540" group-title="体育",EUROSPORT(INDIA)
-https://drk6xq0vhn.gpcdn.net/live/euro_sports_hd_abr/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport.in@HD" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG002E9LQS.png?lock=720x540" group-title="体育",EUROSPORT(INDIA)HD
 https://livetv.shamon-cable.net:8443/Eurosport-HD/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@Bulgaria" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="体育",EUROSPORT1BULGARIA
@@ -212,9 +214,6 @@ http://185.228.163.146:8000/play/a03z/index.m3u8
 http://89.44.231.73:7000/eurosport
 #EXTINF:-1 tvg-id="Eurosport1.fr@Russia" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="体育",EUROSPORT1RUSSIA
 https://s7.iptv-24.net/1439/playlist.m3u8
-#EXTINF:-1 tvg-id="Eurosport1.fr@Serbia" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="体育",EUROSPORT1SERBIA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://87.238.211.217:2209/stream/99/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@Spain" tvg-logo="https://i.imgur.com/olQJgm7.png" group-title="体育",EUROSPORT1SPAIN
 http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Bulgaria" tvg-logo="https://i.imgur.com/f56dHgR.png" group-title="体育",EUROSPORT2BULGARIA
@@ -339,8 +338,6 @@ https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
 https://thm-it-roku.otteravision.com/thm/it/it.m3u8
 #EXTINF:-1 tvg-id="JordanSport.jo@SD" tvg-logo="https://i.imgur.com/2EmrZPQ.png" group-title="体育",JORDANSPORT(1080P)GEO-BLOCKED
 https://jrtv-live.ercdn.net/jordansporthd/jordansporthd.m3u8
-#EXTINF:-1 tvg-id="Kabaddi24x7.in@SD" tvg-logo="https://papaji.freetvindia.com/media/kabaddi_24x7.png" group-title="体育",KABADDI24X7
-https://samitaorigin.tangotv.in/KABADDI24X7/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="KozoomTV.fr@SD" tvg-logo="https://i.imgur.com/M1Ee79b.png" group-title="体育",KOZOOMTV
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/fdd6f243-f971-4a1a-9510-97ac01d6b37f/manifest.m3u8
 #EXTINF:-1 tvg-id="KTVSport.kw@SD" tvg-logo="https://i.imgur.com/R1hGX1d.png" group-title="体育",KTVSPORT
@@ -367,8 +364,6 @@ https://srvx1.selftv.video/dmchannel/live/playlist.m3u8
 http://stream.mcquack.net/487/index.m3u8
 #EXTINF:-1 tvg-id="MaincastSport.ua@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Maincast_%28HD_Logo%29_2024.png" group-title="体育",MAINCASTSPORT
 http://stream.mcquack.net/490/index.m3u8
-#EXTINF:-1 tvg-id="MarqueeSportsNetwork.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Marquee_Sports_Network_Logo.svg/960px-Marquee_Sports_Network_Logo.svg.png" group-title="体育",MARQUEESPORTSNETWORK
-https://tvsen6.aynaott.com/MarqueeSportsNetwork/index.m3u8
 #EXTINF:-1 tvg-id="MatchBoets.ru@SD" tvg-logo="https://i.imgur.com/DogOkA4.png" group-title="体育",MATCH!BOETS
 http://stream.mcquack.net/112/index.m3u8
 #EXTINF:-1 tvg-id="MatchPremier.ru@SD" tvg-logo="https://i.imgur.com/GQPyHYK.png" group-title="体育",MATCH!PREMIER
@@ -405,6 +400,8 @@ https://jmp2.uk/plu-65bcc9c8d77d450008b34c6b.m3u8
 https://h.jcp.live.opencaster.com/play_src/index.m3u8
 #EXTINF:-1 tvg-id="MoreThanSportsTV.de@SD" tvg-logo="https://i.imgur.com/SLrjImc.png" group-title="体育",MORETHANSPORTSTV
 https://mts1.iptv-playoutcenter.de/mts/mts-web/playlist.m3u8
+#EXTINF:-1 tvg-id="MRTVSports.mm@SD" tvg-logo="https://i.imgur.com/cFTR4kC.png" group-title="体育",MRTVSPORTSNOT24/7
+https://mrtvott.com/cache/MRTV-SPORT/master.m3u8
 #EXTINF:-1 tvg-id="MUTV.uk@SD" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1834.png" group-title="体育",MUTV
 https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="NauticalChannel.it@SD" tvg-logo="https://i.imgur.com/2ByDyzL.png" group-title="体育",NAUTICALCHANNEL
@@ -627,6 +624,10 @@ https://jmp2.uk/plu-681109b688b9d85d0938c6ba.m3u8
 https://mumbai-edge.smartplaytv.in/Tennis2/index.m3u8
 #EXTINF:-1 tvg-id="TigoSports.bo@SD" tvg-logo="https://i.imgur.com/6wkmgGM.png" group-title="体育",TIGOSPORTS(BOLIVIA)(720P)GEO-BLOCKED
 https://dipdxjic51jcl.cloudfront.net/out/v1/81f769d780694be488d85811331c8a4f/index.m3u8
+#EXTINF:-1 tvg-id="TigoSportsPlus.py@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="体育",TIGOSPORTS+(1280P)
+#EXTVLCOPT:http-referrer=https://www.tigosports.com.py/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 11.O; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck0) Chrome/102.0.0.0 Safari/537.37
+https://stmv7.voxtvhd.com.br/xxvideo/xxvideo/playlist.m3u8
 #EXTINF:-1 tvg-id="TJKTV.tr@SD" tvg-logo="https://i.imgur.com/3zHdkYG.png" group-title="体育",TJKTV
 https://tjktv-live.tjk.org/tjktv.m3u8
 #EXTINF:-1 tvg-id="TNTSports.ar@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TNT_Sports_2021_logo.svg/960px-TNT_Sports_2021_logo.svg.png" group-title="体育",TNTSPORTS(ARGENTINA)
@@ -709,6 +710,8 @@ http://38.75.136.137:98/gslb/dsdqpub/fyjc.m3u8?auth=testpub
 http://38.75.136.137:98/gslb/dsdqpub/dyjc.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="HarbinMovieChannel.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/haerbin.jpg" group-title="电影",HARBINMOVIECHANNEL
 https://stream.hrbtv.net/yspd/playlist.m3u8
+#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD" tvg-logo="https://i.imgur.com/laGiFM1.png" group-title="电影",MEIAHMOVIECHANNEL
+http://103.172.187.30:12000/stream/mytv/null-2/master.m3u8
 #EXTINF:-1 tvg-id="REVNAction.us@SD" tvg-logo="https://i.imgur.com/xsm8mMd.png" group-title="剧场",REV'NACTION(720P)GEO-BLOCKED
 https://freecast-lukentvlive.vgcdn.net/out/v1/a4f31f297fc5440f814bd2cffd77e689/index.m3u8
 #EXTINF:-1 tvg-id="CCTV9.cn@SD" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="纪录",CCTV-9(576I)
@@ -778,6 +781,8 @@ http://video10.qtv.com.cn/drm/qtv2at/manifest.m3u8
 http://74.91.26.218:82/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-id="HakkaTV.tw@SD" tvg-logo="https://i.imgur.com/1CdGSbU.png" group-title="文化",HAKKATV
 https://h5cul1yar48um3t.wcetv.com/hls/hakkatv.m3u8
+#EXTINF:-1 tvg-id="LanzhouCultureTourismChannel.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/lanzhou.jpg" group-title="文化",LANZHOUCULTURE&TOURISMCHANNEL
+https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 #EXTINF:-1 tvg-id="AnshunComprehensiveNewsChannel.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/anshun.jpg" group-title="新闻",ANSHUNCOMPREHENSIVENEWSCHANNEL
 https://hplayer1.juyun.tv/camera/154379194.m3u8
 #EXTINF:-1 tvg-id="CCTVPlus1.cn@SD" tvg-logo="https://i.imgur.com/U8d4Is6.png" group-title="新闻",CCTV+1(600P)NOT24/7
@@ -798,8 +803,8 @@ http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv
 https://stream.hrbtv.net/xwzh/playlist.m3u8?_upt=ef41dd531755913594
 #EXTINF:-1 tvg-id="HebiNewsChannel.cn@SD" tvg-logo="https://i.imgur.com/Osw5yRW.png" group-title="新闻",HEBINEWSCHANNEL(480P)NOT24/7
 http://pili-live-hls.hebitv.com/hebi/hebi.m3u8
-#EXTINF:-1 tvg-id="JingmenComprehensiveNewsChannel.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/jmsxwpd.jpg" group-title="新闻",JINGMENCOMPREHENSIVENEWSCHANNEL
-https://stream.jmtv.com.cn/xwzh/sd/live.m3u8?_upt=341f4b8e1791883036
+#EXTINF:-1 tvg-id="LanzhouComprehensiveNewsChannel.cn@SD" tvg-logo="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_c2a13a952c0111b21f081d672798c8ed~c5_300x300.jpeg?from=2956013662" group-title="新闻",LANZHOUCOMPREHENSIVENEWSCHANNEL
+https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8
 #EXTINF:-1 tvg-id="TTVNews.tw@SD" tvg-logo="https://i.imgur.com/AfkK0gv.png" group-title="新闻",TTVNEWS
 https://live.wcetv.com/hls/master-ttvnews.m3u8
 #EXTINF:-1 tvg-id="CCTVStormMusic.cn@HD" tvg-logo="https://i.imgur.com/IiiRmrf.png" group-title="音乐",CCTV-STORMMUSIC
@@ -812,6 +817,10 @@ http://74.91.26.218:82/live/cctv15hd.m3u8
 http://74.91.26.218:82/live/cctv3hd.m3u8
 #EXTINF:-1 tvg-id="ChannelU.sg@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mediacorp_Channel_U_2023.svg/960px-Mediacorp_Channel_U_2023.svg.png" group-title="娱乐",CHANNELU
 https://cdn.qd.je/163189/chu
+#EXTINF:-1 tvg-id="Jade.hk@SD" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="娱乐",JADE
+http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
+#EXTINF:-1 tvg-id="KIX.hk@SD" tvg-logo="https://i.imgur.com/zWcUAdb.png" group-title="娱乐",KIX
+https://freem3u.xyz/api/live/play.m3u8?vid=9901
 #EXTINF:-1 tvg-id="meWATCHLIVE1.sg@SD" tvg-logo="https://i.imgur.com/ppxUDxB.png" group-title="娱乐",MEWATCHLIVE1
 https://tglmp04.akamaized.net/out/v1/898b1cbac7c747e3b1f3deb460e9b67e/manifest.mpd
 #EXTINF:-1 tvg-id="TVBSAsia.tw@SD" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="娱乐",TVBS-ASIA
@@ -862,8 +871,6 @@ https://h5cul1yar48um3t.wcetv.com/hls/gdtv.m3u8
 http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
 #EXTINF:-1 tvg-id="GuangzhouTV.cn@SD" tvg-logo="https://i.imgur.com/ff3KQXp.png" group-title="综合",GUANGZHOUTV
 https://tencentplaybusiness.gztv.com/live/zonghes.m3u8
-#EXTINF:-1 tvg-id="HebeiTV.cn@SD" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="综合",HEBEITV
-https://event.pull.hebtv.com/live/live101.m3u8
 #EXTINF:-1 tvg-id="HunanEconomyChannel.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/hnjs.jpg" group-title="综合",HUNANECONOMYCHANNEL
 https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
 #EXTINF:-1 tvg-id="KangbaTV.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/kangbatv.jpg" group-title="综合",KANGBATV
